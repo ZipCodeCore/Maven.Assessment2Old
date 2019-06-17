@@ -5,11 +5,11 @@ package rocks.zipcode.assessment2.objectorientation;
  */
 public class Address {
 
-    String addressLine1;
-    String addressLine2;
-    String city;
-    String state;
-    String zipcode;
+    private String addressLine1;
+    private String addressLine2;
+    private String city;
+    private String state;
+    private String zipcode;
 
     public Address() {
         this.addressLine1 = "";
